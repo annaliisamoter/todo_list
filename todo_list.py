@@ -30,6 +30,7 @@ def display_main_menu(my_list):
     B. View list
     C. Quit the program
     >>> """
+    raw_input(user_options)
 
     while True:
         # Collect input and include your if/elif/else statements here.
