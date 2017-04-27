@@ -12,6 +12,7 @@ You can run the script in your Terminal at any time using the command:
 def add_to_list(my_list):
     """Takes user input and adds it as a new item to the end of the list."""
 
+
     print "The add_to_list function has not yet been written"
 
 
@@ -30,11 +31,21 @@ def display_main_menu(my_list):
     B. View list
     C. Quit the program
     >>> """
-    raw_input(user_options)
-
+    answer = raw_input(user_options)
+   
     while True:
-        # Collect input and include your if/elif/else statements here.
-        break
+        if answer == "A":
+            #add_to_list(my_list)
+            #run a function to append a list. 
+            add_to_list(my_list)
+
+        elif answer == "B":
+            #view_list(my_list)
+             #run a function to print each item in list. 
+             view_list(my_list)
+
+        elif answer == "C": 
+            break
 
 #-------------------------------------------------
 
